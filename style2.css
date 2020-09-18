@@ -1,0 +1,38 @@
+
+#section1{
+    background-image: url("./main1\ \(2\).jpeg");
+    background-size: 100% 100%;
+    padding: 20px 30px;
+    height:700px;
+    margin:0px;
+    }
+.img-con{
+    max-width: 400px;
+    border: 2px solid transparent;
+    margin-top:40px;
+    margin-bottom:50px;
+    margin-left:100px;
+    overflow: hidden;
+    float: left;
+    cursor: pointer;
+    }
+.img-con img{
+    width: 300px;
+    height: auto;
+    margin: 0;
+    -webkit-transition: all ease 0.3s;
+    -moz-transition: all ease 0.3s;
+    transition: all ease 0.3s;
+    }
+.img-con img:hover{
+    -webkit-transform: scale(1.5,1.5);
+    -moz-transform: scale(1.5,1.5);
+    transform: scale(1.5,1.5);
+    }
+.img-con .footer-con{
+    margin-top: -10px;
+    background-color: white;
+    padding: 15px;
+    font: 15pt arial;
+    text-align: center;
+    } 
